@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const surpriseImages = [
-  '/src/images/Screenshot 2026-05-09 232549.png',
-  '/src/images/Screenshot 2026-05-09 232600 - Copy.png',
-  '/src/images/Screenshot 2026-05-09 232609.png',
-  '/src/images/Screenshot 2026-05-09 232615 - Copy - Copy.png',
-  '/src/images/Screenshot 2026-05-09 232628 - Copy - Copy.png',
-  '/src/images/Screenshot 2026-05-09 232636 - Copy.png',
+  '/images/Screenshot 2026-05-09 232549.png',
+  '/images/Screenshot 2026-05-09 232600 - Copy.png',
+  '/images/Screenshot 2026-05-09 232609.png',
+  '/images/Screenshot 2026-05-09 232615 - Copy - Copy.png',
+  '/images/Screenshot 2026-05-09 232628 - Copy - Copy.png',
+  '/images/Screenshot 2026-05-09 232636 - Copy.png',
 ];
 
 const SurpriseModal = ({ isOpen, onClose }) => (
