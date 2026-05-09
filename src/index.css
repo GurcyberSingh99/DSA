@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Outfit', sans-serif;
+  @apply antialiased text-gray-900;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
